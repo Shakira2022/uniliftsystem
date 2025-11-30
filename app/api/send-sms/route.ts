@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields: to and body" }, { status: 400 })
     }
 
-    const username = "muhle_surp"
+    const username = "muhle"
     const password = "cFP6LSTb7hv.4vj"
 
     // Fixed: Remove the "messages" wrapper - BulkSMS expects direct message object
