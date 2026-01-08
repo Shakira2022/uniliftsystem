@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     }
 
     const username = "muhle"
-    const password = "cFP6LSTb7hv.4vj"
+    const password = ""
 
     // Fixed: Remove the "messages" wrapper - BulkSMS expects direct message object
     const messageData = {
