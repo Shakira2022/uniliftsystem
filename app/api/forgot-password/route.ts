@@ -28,7 +28,6 @@ function generateRandomPassword(length = 8) {
 }
 
 /**
- * Convert local SA number (e.g. 0698145345) → +27698145345
  */
 function formatPhoneNumber(contact: string): string {
     // Remove all non-digits
